@@ -1,0 +1,14 @@
+/* styles.css */
+.color-button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-container {
+    text-align: center;
+}
+
+

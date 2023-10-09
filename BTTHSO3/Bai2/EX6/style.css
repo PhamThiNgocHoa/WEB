@@ -1,0 +1,483 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+
+/*Contact Us*/
+#container2{
+    width: 1100px;
+    margin-top: 20px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    padding: 0;
+
+}
+p
+{ padding: 0;
+    margin: 0;
+}
+#container2 #section{
+    width: 460px;
+    height: 415px;
+    border: 7px solid #e6e6e6;
+
+}
+#section .dr_section .top .contact_us{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+#container2 #section .dr_section .center .p1 ,
+#container2 #section .dr_section .bootom .message .p1{
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+}
+
+#container2 #section .dr_section .center .p2 ,
+#container2 #section .dr_section .bootom .message .p2
+{
+    padding-left: 15px;
+    color: #dad6d4;
+    border: none;
+    background: #f7f7f7;
+    width: 180px;
+
+}
+#container2 #section .dr_section .center input.p2:focus,
+#container2 #section .dr_section .bootom .message input.p2:focus {
+    outline: none;
+}
+#container2 #section .dr_section .center .full_name,
+.email, .phone, .needed_services{
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    background: #f7f7f7;
+    height: 46px;
+    margin-bottom: 11px;
+
+
+}
+
+#container2 #section .dr_section .center .full_name,
+.needed_services{
+    width: 407px;
+    margin: auto;
+}
+
+#container2 #section .dr_section .center .email, .phone{
+    width: 198px;
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 23px;
+}
+#container2 #section .dr_section .center .phone{
+    margin-left: 9px;
+}
+
+#container2 #section .dr_section .center .needed_services i{
+    float: right;
+    margin-right: 23px;
+    color: #b9b9b9;
+
+}
+#container2 #section .dr_section .center .needed_services .fa-solid,
+.p2{
+    display: inline-block;
+}
+#container2 #section .dr_section .center .needed_services .need{
+    border: none;
+    background: #f9f9f9;
+    float: right;
+    outline: none;
+}
+#container2 #section .dr_section .bootom .message{
+    width: 407px;
+    height: 81px;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    margin-top: 11px;
+    margin-left: 23px;
+    margin-bottom: 21px;
+}
+#container2 #section .dr_section .bootom .message .p2{
+    background: white;
+}
+#container2 #section .dr_section .bootom .btn{
+    width: 407px;
+    height: 30px;
+    margin-left: 23px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+#container2 #section .dr_section .bootom i{
+    float: right;
+    margin-top: 25px;
+    margin-right: 5px;
+    color: #b9b9b9;
+}
+#container2 #section .dr_section .center .needed_services .p2{
+    color: black;
+    font-weight: bold;
+}
+
+
+/*section 2*/
+
+#container3 {
+    width: 1100px;
+    margin-top: 50px;
+    padding: 0;
+}
+#container3 #section2 {
+    width: 437px;
+    height: 327px;
+    background-image: url("images/sd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+#container3 #section2 .sign_in {
+    width: 157px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+
+
+}
+#container3 #section2 .sign_in .txt{
+    display: inline-grid;
+    margin: auto;
+}
+
+#section2 .sign_in .sign{
+    text-align: center;
+    margin-top: 32px;
+}
+#email, #password{
+    width: 113px;
+    height: 26px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 8px;
+    margin-bottom: 9px;
+    font-weight: bold;
+    color: black;
+    margin-left: 19px;
+}
+.sign_in .txt .im .img1, .img2{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 47px;
+
+}
+.sign_in .txt .im{
+    margin-left: 54px;
+}
+
+#container3 #section2 .sign_in .txt .sign_btn{
+    width: 67px;
+    height: 22px;
+    background: #bd59d7;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 24px;
+    font-size: 10px;
+    color: white;
+    margin-left: 46px;
+}
+
+#container3 #section2 .sign_in .txt .or_logn{
+    color: #b9b9b9;
+    font-size: 10px;
+    margin-bottom: 11px;
+    margin-left: 55px;
+
+}
+.sign_in .txt .im  .img2{
+    border-radius: 50%;
+
+}
+
+#container3 #section2 .sign_in .txt .last{
+    color: #9b88a0;
+    margin-left: 64px;
+
+}
+
+#container4{
+    padding: 0px;
+    margin-top: 30px;
+    width: 1100px;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+#container4 #section3{
+
+    width: 440px;
+    height: 595px;
+    background: #b9b9b9;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+#container4 #section3 .Account{
+    width: 420px;
+    height: 579px;
+    background: white;
+    border-radius: 5px;
+
+}
+#container4 #section3 .Account h4{
+    color: #7ed321;
+}
+#container4 #section3 .Account .item
+{
+    width: 328px;
+    height: 37px ;
+    border: 2px solid #eeeeee;
+    background:#f9f9f9 ;
+    border-radius: 3px;
+    margin-top: 10px;
+
+}
+
+#container4 #section3 .Account .item i,
+#container4 #section3 .Account .item p{
+    display: inline-block;
+    padding: 10px;
+
+
+}
+#container4 #section3 .Account .item .p{
+    border: none;
+    background:#f9f9f9 ;
+
+}
+
+#container4 #section3 .Account .item input.p:focus{
+    outline: none;
+}
+#container4 #section3 .Account .item i{
+    width: 17px;
+    height: 5px;
+    border-right: 2px solid #eeeeee;
+    color: #c3c3c3;
+
+}
+#container4 #section3 .Account .item p{
+    color: #b9b9b9;
+}
+
+#container4 #section3 .Account .count2 .itemd{
+    display: inline-block;
+    width: 44px;
+    height: 35px;
+    border: 2px solid #eeeeee;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 12px;
+
+}
+#container4 #section3 .Account .count2 input.itemd:focus{
+    outline: none;
+}
+#container4 #section3 .Account .count2 .itemd p{
+    padding: 10px;
+    color: #b9b9b9;
+}
+
+.count2 .gender .gender_item{
+    width: 165px;
+    height: 37px;
+    border: 2px solid #eeeeee;
+    border-radius: 3px;
+    color: #b9b9b9;
+}
+.count2 .gender .gender_item .items, .itemss{
+    display: inline-block;
+    width: 75px;
+    height: 34px;
+    text-align: center;
+    border: none;
+
+
+
+
+}
+.count2 .gender .gender_item  input.items:focus,
+.count2 .gender .gender_item  input.itemss:focus{
+    outline: none;
+}
+.count2 .gender .gender_item .items{
+    float: right;
+    border-left: 2px solid #eeeeee;
+
+}
+
+.count2 .gender .gender_item .itemss p, .items p {
+    text-align: center;
+    padding-top: 10px;
+}
+#container4 #section3 .Account .count2 .date,
+#container4 #section3 .Account .count2 .gender,
+.Account .count3s .cards .credit .fa-solid, .cr,
+.Account .count3s .cards .paypal .fa-brands, .cr{
+    display: inline-block;
+}
+.Account .count3s .cards{
+    width: 330px;
+    height: 37px;
+    border: 2px solid #eeeeee;
+    border-radius: 3px;
+    background:#f9f9f9 ;
+
+}
+
+.Account .count3s .cards .credit:hover,
+.Account .count3s .cards .paypal:hover{
+    background: #7ed321;
+    color: white;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+
+}
+.Account .count3s .cards .credit, .paypal{
+    display: inline-block;
+    width: 165px;
+    text-align: center;
+    padding-top: 5px;
+
+
+}
+.Account .count3s .cards .paypal{
+    color: #c3c3c3;
+}
+.Account .count3s .cards{
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+
+}
+
+#container4 #section3 .Account .cvc{
+    width: 160px;
+    height: 37px;
+    border: 2px solid #eeeeee;
+    background:#f9f9f9 ;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-left: -45px;
+
+}
+#container4 #section3 .Account .cvc .p{
+    width: 110px;
+    border: none;
+    background: #f9f9f9;
+}
+#container4 #section3 .Account .cvc input.p:focus{
+    outline: none;
+}
+
+#container4 #section3 .Account .last_card{
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+
+}
+#container4 #section3 .Account .cvc .fa-solid,
+#container4 #section3 .Account .cvc .cr{
+    display: inline-block;
+    color: #c3c3c3;
+    padding: 10px;
+
+}
+
+#container4 #section3 .Account .cvc,
+#container4 #section3 .Account .dmy{
+    display: inline-block;
+
+}
+
+#container4 #section3 .Account .cvc .fa-solid{
+    width: 16px;
+    height: 8px;
+    border-right: 2px solid #eeeeee;
+}
+#container4 #section3 .Account .dmy{
+
+    border: 2px solid #eeeeee;
+    border-radius: 3px;
+    background: #f9f9f9;
+    color: #c3c3c3;
+    display: flex;
+    justify-content: center;
+
+}
+#container4 #section3 .Account .last_card .dmy .dm,
+#container4 #section3 .Account .last_card .dmy .y{
+    display: inline-block;
+    color: black;
+    width: 80px;
+}
+
+#container4 #section3 .Account .last_card .dmy .dm p, i,
+#container4 #section3 .Account .last_card .dmy .y p, i{
+    display: inline-block;
+    padding: 8px;
+}
+#container4 #section3 .Account .last_card .dmy .dm{
+    border-right: 2px solid #eeeeee;
+}
+#container4 #section3 .Account .count4,.count3s, .count2, .count1{
+    color: #c3c3c3;
+    margin-left: 40px;
+}
+.dmy .dm{
+    border: none;
+    background: #f9f9f9;
+    outline: none;
+}
+
+.dmy .y{
+    border: none;
+    background: #f9f9f9;
+    outline: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

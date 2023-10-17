@@ -22,9 +22,9 @@ public class HelloServlet extends HttpServlet {
             if(s.equals("ptnh20052003@gmail.com") && sd.equals("123")){
                 request.getServletContext().getRequestDispatcher(url).forward(request, response);
                 }
-            else{
-                response.getWriter().append("Tên hoặc mật khẩu sai");
-            }
+           if((!s.equals("ptnh20052003@gmail.com") && sd.equals("123")) || (s.equals("ptnh20052003@gmail.com") && !sd.equals("123"))){
+               response.getWriter().append("Tên hoặc mật khẩu đăng nhập sai");
+           }
         }
 
 

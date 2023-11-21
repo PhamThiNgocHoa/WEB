@@ -2,14 +2,13 @@ package com.example.jdbi;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
 import org.jdbi.v3.core.Jdbi;
-import vn.edu.hcmuaf.fit.beans.User;
 
 import java.sql.SQLException;
 import java.util.List;
 import java.util.stream.Collectors;
 
 
-public class JDBIConnector {
+public class   JDBIConnector {
     private static Jdbi jdbi;
 
    private static void makeConnect() {
